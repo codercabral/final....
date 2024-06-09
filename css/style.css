@@ -26,16 +26,98 @@ body {
 .grid-conteiner {
   max-width: 100%;
   display: grid;
-  margin: 60px;
-  grid-template-columns: repeat(auto-fill, minmax(1fr));
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(auto, 1fr);
+  gap: 10px;
 }
 
-.c1 h1 {
+.c1 h2 {
+  color: green;
+  text-align: start;
+  margin: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.c1 p {
+  color: greenyellow;
+  text-align: center;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 20px;
+}
+
+.c2 img {
+  height: 500px;
+  width: 100%;
+}
+
+.c4 video {
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+}
+
+.c5 h2 {
   color: green;
   text-align: center;
-  margin: 10px;
+  font-size: 20px;
+  margin: 20px;
+}
+.c5 p {
+  color: greenyellow;
+  text-align: center;
+  font-size: medium;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 20px;
+}
+
+.c7 h2 {
+  color: green;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}
+.c7 p {
+  color: greenyellow;
+  text-align: center;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 20px;
+}
+.c7 ul li {
+  color: greenyellow;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 0.5px solid green;
+  margin: 5px;
+  padding: 5px;
+}
+
+.c12 img {
+  height: 20%;
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 10px;
+}
+.c12 h3 {
+  color: green;
+  text-align: center;
+  font-size: 20px;
+}
+.c12 p {
+  color: greenyellow;
+  text-align: center;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.c12 h4 {
+  color: green;
+  text-align: center;
+  font-size: 20px;
+}
+.c12 small {
+  color: green;
+  margin-left: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */

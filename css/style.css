@@ -1,17 +1,14 @@
-header nav div {
-  background-color: rgb(255, 255, 255);
+.nav-item {
+  color: greenyellow;
 }
-header nav div a {
-  color: green;
-  text-decoration: none;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+.nav-link {
+  color: greenyellow;
 }
-header nav div a span {
-  color: blue;
-}
-header nav div div ul li .nav-item {
-  color: blue;
+
+.Monster-extremo img {
+  height: 60px;
+  width: auto;
 }
 
 * {
@@ -32,6 +29,12 @@ body {
   gap: 10px;
 }
 
+.c1 h1 {
+  color: green;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+}
 .c1 h2 {
   color: green;
   text-align: start;
@@ -52,7 +55,18 @@ body {
   width: 100%;
 }
 
-.c4 video {
+.c3 h2 {
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.c3 p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: greenyellow;
+  text-align: center;
+}
+
+.c6 video {
   height: 100%;
   width: 100%;
   margin: 10px;
@@ -70,6 +84,13 @@ body {
   font-size: medium;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 20px;
+}
+.c5 ul {
+  color: greenyellow;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 30px;
+  padding: 10px;
 }
 
 .c7 h2 {
@@ -137,48 +158,52 @@ header a {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.grid-conteiner h2 {
-  margin-top: 30px;
-}
-.grid-conteiner p {
-  color: greenyellow;
-  margin: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: center;
-}
-.grid-conteiner .c3 h3 {
-  color: green;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: center;
-}
-
 header img {
   height: 20%;
   width: 40%;
   margin-left: 30%;
 }
 
-.grid-conteiner h1 {
+.grid-conteiner2 h1 {
   color: green;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 20px;
 }
-.grid-conteiner h2 {
+.grid-conteiner2 h2 {
   color: green;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.grid-conteiner h3 {
+.grid-conteiner2 h3 {
   color: green;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 10px;
 }
-.grid-conteiner ul li {
+.grid-conteiner2 ul li {
   color: greenyellow;
   text-align: center;
   margin: 5px;
+}
+
+.c1 h2 {
+  color: green;
+}
+.c1 p {
+  color: greenyellow;
+}
+
+.c2 p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: greenyellow;
+  text-align: center;
+}
+
+.c3 p {
+  color: greenyellow;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
 }
 
 .c4 img {
@@ -189,6 +214,67 @@ header img {
 .c5 img {
   height: 300px;
   width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  header img {
+    height: 100px;
+    width: auto;
+    margin-left: 45%;
+  }
+  .caja {
+    width: auto;
+  }
+  .grid-conteiner {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .c1 {
+    text-align: center;
+    font-size: larger;
+    grid-column: 1/3;
+  }
+  .c2 {
+    grid-column: 1/3;
+  }
+  .c2 img {
+    height: 500px;
+    width: auto;
+    margin-left: 37%;
+  }
+  .c3 {
+    grid-column: 1/3;
+  }
+  .c4 {
+    grid-column: 1/3;
+  }
+  .c4 img {
+    height: 300px;
+    width: auto;
+    margin-left: 40%;
+  }
+  .c5 {
+    margin-left: 15px;
+    grid-column: 1/3;
+  }
+  .c5 img {
+    height: auto;
+    width: 700px;
+  }
+  .c6 {
+    grid-column: 1/3;
+    height: 500px;
+    width: auto;
+  }
+  .c7 {
+    height: 700px;
+    width: auto;
+  }
+  .c7 {
+    grid-column: 1/3;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,7 +8,7 @@ header{
 }
 
 
-.grid-conteiner{
+.grid-conteiner2{
     
         h1{
             color: green;
@@ -45,7 +45,28 @@ header{
             }
 
         }
-    
+        .c1{
+            h2{
+                color: green;
+            }
+            p{
+                color: greenyellow;
+            }
+        }
+        .c2{
+            p{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: greenyellow;
+                text-align: center;
+            }
+        }
+        .c3{
+            p{
+                color: greenyellow;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+            }
+        }
 
         .c4{
             img{

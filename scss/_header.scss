@@ -1,40 +1,19 @@
 
 
 
+.nav-item{
+    color: greenyellow;
+}
 
+.nav-link{
+    color: greenyellow;
+}
 
-
-
-
-
-header{
-    nav{
-        div{
-            
-
-                background-color: rgb(255, 255, 255);
-                a{
-                    color: green;
-                    text-decoration: none;
-                    font-size: 30px;
-                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        
-                    span{
-                        color: blue;
-                    }
-        
-                }
-           
-            div{
-                ul{
-                    li{
-                        .nav-item{
-                            color: blue;
-                        }
-                        
-            }
-        }
+.Monster-extremo{
+    img{
+        height: 60px;
+        width: auto;
     }
-  }
 }
-}
+
+

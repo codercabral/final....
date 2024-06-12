@@ -7,6 +7,12 @@
     gap: 10px;
 }
 .c1{
+    h1{
+        color: green;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 20px;
+    }
 
     h2{
         color: green;
@@ -32,8 +38,21 @@
     }
 }
 
+.c3{
+    h2{
+        color: green;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: greenyellow;
+        text-align: center;
+    }
+}
 
-.c4{
+
+.c6{
     video{
         height: 100%;
         width: 100%;
@@ -56,6 +75,13 @@
         font-size: medium;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin: 20px;
+    }
+    ul{
+        color: greenyellow;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 30px;
+        padding: 10px;
     }
 }
 
@@ -89,6 +115,7 @@
 
     background-color: rgba(0, 0, 0, 0);
     
+    
     img{
         height: 20%;   
         width: 20%;
@@ -120,3 +147,4 @@
    }
    
 }
+

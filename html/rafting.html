@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <title>rafting</title>
+    <link rel="shortcut icon" href="../img/prue.jpg" type="image/x-icon">
 </head>
 <body>
 
@@ -13,7 +15,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="../index.html">Ir a inico</a>
+                    <a class="boton" href="../index.html">Ir a inico</a>
                 </li>
             </ul>
         </nav>
@@ -32,7 +34,9 @@
                 </p>
              
         </div>
-        <div class="c4">
+        <div class="c4"data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" >
                <img src="/img/raf.jpeg" alt="ola">
         </div>
         <div class="c5">
@@ -52,7 +56,9 @@
     </section>
 
     <div class="c12">
-        <footer class="pie-de-pagina">
+        <footer class="pie-de-pagina"data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" >
           <div class="grupo1">
               <div class="caja">
                 <a href="#">
@@ -79,6 +85,9 @@
 
         </footer>
        </div>
-    
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <script>
+        AOS.init();
+      </script>
 </body>
 </html>
